@@ -1,66 +1,27 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+### Обзор проекта
+Цель проекта заключается в создании онлайн-магазина, специализирующегося на женской мусульманской повседневной одежде. Для визуального оформления и определения требований к пользовательскому опыту предоставлены шаблоны дизайна для настольной и мобильной версий в Figma.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### Стек технологий
+- **Бэкенд**: Laravel
+- **Фронтенд**: VueJS
+- **Фронтенд Фреймворк**: JetStream (InertiaJS)
 
-## About Laravel
+Кроме того, в проекте используются различные вспомогательные технологии и инструменты для обеспечения эффективной разработки, включая, но не ограничиваясь системами управления базами данных, системами контроля версий и менеджерами пакетов.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Достижения
+1. **Настройка начального шаблона**: Создана базовая структура веб-сайта, включая компоненты заголовка и подвала, основываясь на предоставленных шаблонах дизайна. Это заложило основу для дальнейшей разработки.
+2. **Анализ структуры проекта**: Проведен комплексный анализ архитектуры и организации проекта для обеспечения масштабируемости и удобства поддержки.
+3. **Разработка схемы базы данных**: Начат процесс проектирования схемы базы данных для хранения основных данных магазина, соответствующий требованиям онлайн-магазина.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### TODO
+1. **Исправление адаптивного дизайна**: Устранение обнаруженных ошибок в основном макете на промежуточных размерах экранов для обеспечения однородного пользовательского опыта на различных устройствах.
+2. **Улучшение формы входа и регистрации**: Улучшение дизайна и функциональности формы входа и регистрации для улучшения доступности и безопасности пользователей.
+3. **Отрисовка остальных экранов**: Реализация отображения оставшихся экранов в соответствии с предоставленными шаблонами дизайна для завершения визуального представления интернет-магазина.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Следующие шаги
+- Приоритизация корректировок адаптивного дизайна для улучшения удобства использования на различных устройствах.
+- Доработка форм входа и регистрации для оптимизации процесса привлечения пользователей.
+- Продолжение реализации дополнительных экранов для завершения проекта.
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Заключение
+Был сделан прогресс в создании основы проекта интернет-магазина. В дальнейшем акцент будет сделан на устранении существующих проблем и реализации оставшихся функций для создания полностью функциональной и визуально привлекательной платформы для целевой аудитории.
